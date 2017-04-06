@@ -1,6 +1,6 @@
 <?php Block::put('breadcrumb') ?>
     <ul>
-        <li><a href="<?= Backend::url('hambern/portfolio/items') ?>">Items</a></li>
+        <li><a href="<?= Backend::url('hambern/portfolio/items') ?>"><?= e(trans('hambern.portfolio::lang.item.label')) ?></a></li>
         <li><?= e($this->pageTitle) ?></li>
     </ul>
 <?php Block::endPut() ?>
