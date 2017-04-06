@@ -1,0 +1,38 @@
+columns:
+    id:
+        label: id
+        type: number
+        sortable: true
+    title:
+        label: 'hambern.portfolio::lang.label.title'
+        type: text
+        searchable: true
+        sortable: true
+    slug:
+        label: 'hambern.portfolio::lang.label.slug'
+        type: text
+        invisible: true
+    excerpt:
+        label: 'hambern.portfolio::lang.label.excerpt'
+        type: text
+        searchable: false
+    description:
+        label: 'hambern.portfolio::lang.label.description'
+        type: text
+        invisible: true
+    published_at:
+        label: 'hambern.portfolio::lang.label.published_at'
+        type: date
+        sortable: true
+    created_at:
+        label: 'hambern.portfolio::lang.label.created_at'
+        type: date
+        invisible: true
+    updated_at:
+        label: 'hambern.portfolio::lang.label.updated_at'
+        type: date
+        sortable: true
+    deleted_at:
+        label: 'hambern.portfolio::lang.label.deleted_at'
+        type: date
+        invisible: true

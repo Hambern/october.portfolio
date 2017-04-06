@@ -1,0 +1,11 @@
+name: 'hambern.portfolio::lang.item.label'
+modelClass: Hambern\Portfolio\Models\Item
+form: $/hambern/portfolio/models/item/fields.yaml
+defaultRedirect: hambern/portfolio/items
+create:
+    redirect: 'hambern/portfolio/items/update/:id'
+    redirectClose: hambern/portfolio/items
+update:
+    redirect: hambern/portfolio/items
+    redirectClose: hambern/portfolio/items
+preview: {  }

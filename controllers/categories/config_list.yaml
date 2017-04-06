@@ -1,0 +1,15 @@
+title: 'hambern.portfolio::lang.category.label'
+modelClass: Hambern\Portfolio\Models\Category
+list: $/hambern/portfolio/models/category/columns.yaml
+recordUrl: 'hambern/portfolio/categories/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+showSorting: 1
+defaultSort:
+    column: title
+    direction: asc
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

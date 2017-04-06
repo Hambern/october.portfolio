@@ -1,0 +1,107 @@
+fields:
+    title:
+        label: 'hambern.portfolio::lang.label.title'
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    slug:
+        label: 'hambern.portfolio::lang.label.slug'
+        oc.commentPosition: ''
+        span: auto
+        dependsOn: {  }
+        preset:
+            field: title
+            type: slug
+        type: text
+tabs:
+    fields:
+        excerpt:
+            label: 'hambern.portfolio::lang.label.excerpt'
+            size: small
+            oc.commentPosition: ''
+            span: full
+            type: textarea
+            tab: 'hambern.portfolio::lang.label.description'
+        description:
+            label: 'hambern.portfolio::lang.label.description'
+            size: huge
+            oc.commentPosition: ''
+            mode: tab
+            span: full
+            type: markdown
+            tab: 'hambern.portfolio::lang.label.description'
+        categories:
+            label: 'hambern.portfolio::lang.category.label'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: full
+            type: relation
+            tab: 'hambern.portfolio::lang.category.label'
+        features:
+            label: 'hambern.portfolio::lang.label.features'
+            oc.commentPosition: ''
+            prompt: 'hambern.portfolio::lang.label.add_new'
+            span: full
+            type: repeater
+            tab: 'hambern.portfolio::lang.label.features'
+            form:
+                fields:
+                    feature:
+                        label: 'hambern.portfolio::lang.label.feature'
+                        oc.commentPosition: ''
+                        span: full
+                        type: text
+        url:
+            label: 'hambern.portfolio::lang.label.url'
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: 'hambern.portfolio::lang.label.links'
+        video_url:
+            label: 'hambern.portfolio::lang.label.video_url'
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: 'hambern.portfolio::lang.label.links'
+        created_at:
+            label: 'hambern.portfolio::lang.label.created_at'
+            oc.commentPosition: ''
+            mode: datetime
+            span: full
+            context:
+                - update
+                - preview
+            type: datepicker
+            tab: 'hambern.portfolio::lang.label.dates'
+        published_at:
+            label: 'hambern.portfolio::lang.label.published_at'
+            oc.commentPosition: ''
+            mode: datetime
+            span: full
+            type: datepicker
+            tab: 'hambern.portfolio::lang.label.dates'
+            default: now
+        images:
+            label: 'hambern.portfolio::lang.label.images'
+            oc.commentPosition: ''
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: 'hambern.portfolio::lang.label.attachments'
+        files:
+            label: 'hambern.portfolio::lang.label.files'
+            oc.commentPosition: ''
+            mode: file
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: 'hambern.portfolio::lang.label.attachments'

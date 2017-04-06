@@ -1,0 +1,11 @@
+name: 'hambern.portfolio::lang.category.label'
+modelClass: Hambern\Portfolio\Models\Category
+form: $/hambern/portfolio/models/category/fields.yaml
+defaultRedirect: hambern/portfolio/categories
+create:
+    redirect: 'hambern/portfolio/categories/update/:id'
+    redirectClose: hambern/portfolio/categories
+update:
+    redirect: hambern/portfolio/categories
+    redirectClose: hambern/portfolio/categories
+preview: {  }

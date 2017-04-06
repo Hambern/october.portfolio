@@ -1,0 +1,35 @@
+<?php return [
+    'plugin' => [
+        'name' => 'Portfolio',
+        'description' => 'A plugin for showing off your old projects',
+    ],
+    'item' => [
+        'label' => 'Items',
+        'handle' => 'Manage items',
+    ],
+    'category' => [
+        'label' => 'Categories',
+        'handle' => 'Manage categories',
+    ],
+    'label' => [
+        'add_new' => 'Add new',
+        'excerpt' => 'Excerpt',
+        'created_at' => 'Created',
+        'title' => 'Title',
+        'updated_at' => 'Updated',
+        'published_at' => 'Published',
+        'slug' => 'Slug',
+        'description' => 'Description',
+        'features' => 'Features',
+        'feature' => 'Feature',
+        'links' => 'Links',
+        'url' => 'Link',
+        'video_url' => 'Video URL',
+        'dates' => 'Dates',
+        'deleted_at' => 'Deleted',
+        'attachments' => 'Attachments',
+        'images' => 'Images',
+        'files' => 'Files',
+        'id' => 'Id',
+    ],
+];

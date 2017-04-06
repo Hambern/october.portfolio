@@ -1,6 +1,35 @@
 <?php return [
     'plugin' => [
         'name' => 'Portfolio',
-        'description' => 'A plugin for showing off your old projects'
-    ]
+        'description' => 'Ett plugin för att visa upp gamla projekt',
+    ],
+    'item' => [
+        'label' => 'Föremål',
+        'handle' => 'Hantera föremål',
+    ],
+    'category' => [
+        'label' => 'Kategorier',
+        'handle' => 'Hantera kategorier',
+    ],
+    'label' => [
+        'add_new' => 'Lägg till',
+        'excerpt' => 'Sammanfattning',
+        'created_at' => 'Skapad',
+        'title' => 'Titel',
+        'updated_at' => 'Ändrad',
+        'published_at' => 'Publicerad',
+        'slug' => 'Snigel',
+        'description' => 'Beskrivning',
+        'features' => 'Egenskaper',
+        'feature' => 'Egenskap',
+        'links' => 'Länkar',
+        'url' => 'Länk',
+        'video_url' => 'Videolänk',
+        'dates' => 'Datum',
+        'deleted_at' => 'Raderad',
+        'attachments' => 'Bilagor',
+        'images' => 'Bilder',
+        'files' => 'Filer',
+        'id' => 'Id',
+    ],
 ];

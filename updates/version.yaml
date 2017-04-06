@@ -1,2 +1,11 @@
 1.0.1:
-    - Initialize plugin.
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table hambern_portfolio_items'
+    - builder_table_create_hambern_portfolio_items.php
+1.0.3:
+    - 'Created table hambern_portfolio_categories'
+    - builder_table_create_hambern_portfolio_categories.php
+1.0.4:
+    - 'Created table hambern_portfolio_pivots'
+    - builder_table_create_hambern_portfolio_pivots.php

@@ -4,3 +4,32 @@ plugin:
     author: Hambern
     icon: oc-icon-briefcase
     homepage: ''
+permissions:
+    items:
+        tab: 'hambern.portfolio::lang.plugin.name'
+        label: 'hambern.portfolio::lang.item.handle'
+    categories:
+        tab: 'hambern.portfolio::lang.plugin.name'
+        label: 'hambern.portfolio::lang.category.handle'
+navigation:
+    portfolio:
+        label: 'hambern.portfolio::lang.plugin.name'
+        url: hambern/portfolio/items
+        icon: icon-briefcase
+        permissions:
+            - items
+            - categories
+        order: '200'
+        sideMenu:
+            items:
+                label: 'hambern.portfolio::lang.item.label'
+                url: hambern/portfolio/items
+                icon: icon-file-text
+                permissions:
+                    - items
+            categories:
+                label: 'hambern.portfolio::lang.category.label'
+                url: hambern/portfolio/categories
+                icon: icon-folder-open
+                permissions:
+                    - categories
