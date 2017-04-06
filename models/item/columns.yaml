@@ -2,6 +2,7 @@ columns:
     id:
         label: 'hambern.portfolio::lang.label.id'
         type: number
+        invisible: true
         sortable: true
     title:
         label: 'hambern.portfolio::lang.label.title'
