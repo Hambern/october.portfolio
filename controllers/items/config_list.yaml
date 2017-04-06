@@ -6,6 +6,9 @@ noRecordsMessage: 'backend::lang.list.no_records'
 showSetup: true
 showCheckboxes: true
 showSorting: 1
+defaultSort:
+    column: title
+    direction: asc
 toolbar:
     buttons: list_toolbar
     search:
