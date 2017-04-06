@@ -1,0 +1,6 @@
+plugin:
+    name: 'hambern.portfolio::lang.plugin.name'
+    description: 'hambern.portfolio::lang.plugin.description'
+    author: Hambern
+    icon: oc-icon-briefcase
+    homepage: ''
